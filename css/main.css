@@ -1,5 +1,12 @@
+* {
+    font-family: 'abel', sans-serif;
+}
+
 #codeup-design-logo {
     height: 105px;
     width: 105px;
     padding: 15px ;
+}
+.anton {
+    font-family: 'anton', sans-serif;
 }
