@@ -15,49 +15,64 @@
     font-family: 'anton', sans-serif;
 }
 
-#cir-1 {
-    height: 105px;
-    width: 105px;
-    border: solid 8px white;
+
+
+#codeup-design-text {
+    font-size: 2em;
+}
+
+.nav-menu {
+    padding-top: 13px;
+}
+
+#visual-design {
+    font-size: 5em;
+}
+
+#utah {
+    font-size: 3em;
+    margin-left: .3em;
+}
+
+.circle {
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    margin: 1em;
+}
+
+
+#cir-1 {
+    height: 130px;
+    width: 130px;
+    border: solid 8px white;
     background-color: #E6563b;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 #cir-2 {
-    height: 105px;
-    width: 105px;
+    height: 130px;
+    width: 130px;
     border: solid 8px white;
-    border-radius: 50%;
     background-color: #EB9D3A;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 #cir-3 {
-    height: 105px;
-    width: 105px;
+    height: 130px;
+    width: 130px;
     border: solid 8px white;
     border-radius: 50%;
     background-color: #7cb06c;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #cir-4 {
-    height: 105px;
-    width: 105px;
+    height: 130px;
+    width: 130px;
     border: solid 8px white;
-    border-radius: 50%;
     background-color: #00ABA9;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
