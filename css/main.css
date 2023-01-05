@@ -74,12 +74,42 @@
     background-color: #00ABA9;
     color: white;
 }
-
+/*four images*/
 .jpg {
     height: 15rem;
     width: 25rem !important;
     border: solid 8px #e6e6e6;
     padding: 0;
     margin: 0;
+}
+/*mini circles*/
+#mini-1 {
+    height: 18px;
+    width: 18px;
+    border: solid 8px white;
+    background-color: #E6563b;
+    color: white;
+}
+#mini-2 {
+    height: 18px;
+    width: 18px;
+    border: solid 8px white;
+    background-color: #EB9D3A;
+    color: white;
+}
 
+#mini-3 {
+    height: 18px;
+    width: 18px;
+    border: solid 8px white;
+    background-color: #7cb06c;
+    color: white;
+}
+
+#mini-4 {
+    height: 18px;
+    width: 18px;
+    border: solid 8px white;
+    background-color: #00ABA9;
+    color: white;
 }
