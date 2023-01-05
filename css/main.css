@@ -43,7 +43,6 @@
     margin: 1em;
 }
 
-
 #cir-1 {
     height: 130px;
     width: 130px;
@@ -64,7 +63,6 @@
     height: 130px;
     width: 130px;
     border: solid 8px white;
-    border-radius: 50%;
     background-color: #7cb06c;
     color: white;
 }
@@ -75,4 +73,13 @@
     border: solid 8px white;
     background-color: #00ABA9;
     color: white;
+}
+
+.jpg {
+    height: 15rem;
+    width: 25rem !important;
+    border: solid 8px #e6e6e6;
+    padding: 0;
+    margin: 0;
+
 }
