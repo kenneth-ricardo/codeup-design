@@ -41,6 +41,7 @@
     align-items: center;
     font-weight: bolder;
     margin: 1em;
+    font-size: 8px;
 }
 
 #cir-1 {
@@ -77,39 +78,42 @@
 /*four images*/
 .jpg {
     height: 15rem;
-    width: 25rem !important;
+    width: 23rem !important;
     border: solid 8px #e6e6e6;
-    padding: 0;
+    padding: 0 !important;
     margin: 0;
 }
 /*mini circles*/
-#mini-1 {
-    height: 18px;
-    width: 18px;
-    border: solid 8px white;
+
+.mini-cir {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18px !important;
+    width: 18px !important;
+    font-size: 12px;
+    padding: 0;
+    margin: 4px;
+}
+
+.mini-cir-red {
+    margin-left: 10em ;
     background-color: #E6563b;
-    color: white;
+    color: black;
 }
-#mini-2 {
-    height: 18px;
-    width: 18px;
-    border: solid 8px white;
+
+.mini-cir-orange {
     background-color: #EB9D3A;
-    color: white;
+    color: black;
 }
 
-#mini-3 {
-    height: 18px;
-    width: 18px;
-    border: solid 8px white;
+.mini-cir-green {
     background-color: #7cb06c;
-    color: white;
+    color: black;
 }
 
-#mini-4 {
-    height: 18px;
-    width: 18px;
-    border: solid 8px white;
+.mini-cir-blue {
     background-color: #00ABA9;
-    color: white;
+    color: black;
 }
