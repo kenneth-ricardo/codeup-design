@@ -22,13 +22,13 @@
     <div class="d-flex align-items-center text-align-inherit">
     <div class="fw-bolder me-4" id="codeup-design-text">codeup design</div>
 
-    <div class=" text-secondary text-uppercase nav-menu m-3 ms-5">services</div>
+    <div class=" nav-menu m-2 ms-5">services</div>
     
-    <div class=" text-secondary text-uppercase nav-menu m-3">work</div>
+    <div class=" text-secondary text-uppercase nav-menu m-2">work</div>
 
-    <div class=" text-secondary text-uppercase nav-menu m-3">blog</div>
+    <div class=" text-secondary text-uppercase nav-menu m-2">blog</div>
 
-    <div class=" text-secondary text-uppercase nav-menu m-3">contact</div>
+    <div class=" text-secondary text-uppercase nav-menu m-2">contact</div>
 
     <div></div>
     
@@ -64,19 +64,40 @@
 <div class="container"><hr></div>
 
 <!--Selected Work / The Last-->
-<div class="container">
+<div class="container pt-3">
     <div class="row">
-    <p class="col-lg-8 pt-3 text-center">SELECTED WORK</p>
+    <p class="col-lg-8 mb-5 text-center">SELECTED WORK</p>
     <p class="col-lg-4 text-center">THE LAST</p>
     </div>
 </div>
 
 <!--Lower Page Content-->
-<div class="container">
+<div class="container"> <!--lower page container start-->
     <div class="row">
         <!--Nest top row-->
-        <div class="container">
-            <img src="img/apple-ipad.jpg" alt="apple laptop" class="jpg" >
+        <div class="col-lg-9"> <!--photo section-->
+
+            <!-- apple ipad img -->
+
+        <div class="container row mt-lg-5">  <!-- first row of img start-->
+            <div class="col-lg-6">
+            <img src="img/apple-ipad.jpg" alt="apple laptop" class="large-jpg">
+            <div class="d-inline-flex justify-content-start">
+                <div>
+                    FEATURED PROJECTS
+                </div>
+                <div class="d-inline-flex ">
+                    <div class="col-sm-1 mini-cir anton mini-cir-red">D</div>
+                    <div class="col-sm-1 mini-cir anton mini-cir-orange">D</div>
+                    <div class="col-sm-1 mini-cir anton mini-cir-green">S</div>
+                    <div class="col-sm-1 mini-cir anton mini-cir-blue">H</div>
+                </div>
+            </div>
+            </div>
+
+            <!-- mac desktop img -->
+            <div class="col-lg-6">
+            <img src="img/macbook.jpg" alt="macbook desktop" class="large-jpg">
             <div class="d-inline-flex justify-content-start">
                 <div>
                     FEATURED PROJECTS
@@ -88,8 +109,29 @@
                     <div class="col-sm-1 mini-cir anton mini-cir-blue">H</div>
                 </div>
             </div>
-            <img src="img/macbook.jpg" alt="macbook desktop" class="jpg">
+            </div> 
+        </div>  <!-- first row of img end-->
 
+        
+        <div class="container row" id="second-img-row">  <!-- second row of img start-->
+            <div class="col-lg-6">
+                <img src="img/man.jpg" alt="man with glasses" class="large-jpg">
+            <div class="d-inline-flex justify-content-start">
+                <div>
+                    FEATURED PROJECTS
+                </div>
+                <div class="d-inline-flex ">
+                    <div class="col-sm-1 mini-cir anton mini-cir-red">D</div>
+                    <div class="col-sm-1 mini-cir anton mini-cir-orange">D</div>
+                    <div class="col-sm-1 mini-cir anton mini-cir-green">S</div>
+                    <div class="col-sm-1 mini-cir anton mini-cir-blue">H</div>
+                </div>
+            </div>
+            </div>
+
+            <!-- mac desktop img -->
+            <div class="col-lg-6">
+                <img src="img/security.jpg" alt="security text" class="large-jpg">
             <div class="d-inline-flex justify-content-start">
                 <div>
                     FEATURED PROJECTS
@@ -101,18 +143,35 @@
                     <div class="col-sm-1 mini-cir anton mini-cir-blue">H</div>
                 </div>
             </div>
-        </div>
-        <!--Nest bottom row-->
-        <div class="row">
-            <img src="img/man.jpg" alt="man with glasses" class="jpg">
+            </div> 
+        </div>  <!-- second row of img end-->
+    </div> <!--photo section end-->
 
-            <img src="img/security.jpg" alt="security text" class="jpg">
+
+    <div class="col-3"> <!--right side section -->
+        <div class="d-flex"> <!--first right side img-->
+            <img src="img/mobile-phone.jpg" alt="image of a cell phone" class="right-side-jpg">
+            <p class="anton right-img-text">The admin bar and absolute positioning</p>
         </div>
+        <div class="d-flex"> <!--second right side img-->
+            <img src="img/head.jpg" alt="image of a cell phone" class="right-side-jpg">
+            <p class="anton right-img-text">nibbler awesome website testing</p>
+        </div>
+        <div class="d-flex"> <!--third right side img-->
+            <img src="img/ipad.jpg" alt="image of a cell phone" class="right-side-jpg">
+            <p class="anton right-img-text">The admin bar and absolute positioning</p>
+        </div>
+        <div> <!--bottom right text (lorem) img-->
+        </div>
+        
     </div>
+    
+    
+    
+    
+    
 </div>
-
-</div>
+</div> <!--lower page container end-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
-
 </html>

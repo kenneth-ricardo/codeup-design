@@ -7,8 +7,8 @@
 }
 
 #codeup-design-logo {
-    height: 105px;
-    width: 105px;
+    height: 80px;
+    width: 80px;
     padding: 15px ;
 }
 .anton {
@@ -18,11 +18,14 @@
 
 
 #codeup-design-text {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .nav-menu {
     padding-top: 13px;
+    font-size: 1em;
+    color: rgb(108 117 125);
+    text-transform: uppercase;
 }
 
 #visual-design {
@@ -50,6 +53,7 @@
     border: solid 8px white;
     background-color: #E6563b;
     color: white;
+    font-size: 16px;
 }
 #cir-2 {
     height: 130px;
@@ -57,7 +61,7 @@
     border: solid 8px white;
     background-color: #EB9D3A;
     color: white;
-
+    font-size: 16px;
 }
 
 #cir-3 {
@@ -66,6 +70,7 @@
     border: solid 8px white;
     background-color: #7cb06c;
     color: white;
+    font-size: 16px;
 }
 
 #cir-4 {
@@ -74,14 +79,31 @@
     border: solid 8px white;
     background-color: #00ABA9;
     color: white;
+    font-size: 16px;
 }
 /*four images*/
-.jpg {
+.large-jpg {
     height: 15rem;
     width: 23rem !important;
     border: solid 8px #e6e6e6;
     padding: 0 !important;
     margin: 0;
+}
+
+
+/* right side img */
+
+.right-side-jpg {
+    height: 80px;
+    width: 80px;
+    border: solid 3px #e6e6e6;
+    margin: .5em;
+}
+
+
+.right-img-text {
+    font-size: 25px;
+    text-transform: uppercase;
 }
 /*mini circles*/
 
@@ -116,4 +138,8 @@
 .mini-cir-blue {
     background-color: #00ABA9;
     color: black;
+}
+
+#second-img-row {
+    margin-top: 5em;
 }
