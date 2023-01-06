@@ -29,6 +29,13 @@
     text-transform: uppercase;
 }
 
+.nav-menu-collapse {
+    padding-top: 13px;
+    font-size: 1em;
+    color: rgb(108 117 125);
+    text-transform: uppercase;
+}
+
 #visual-design {
     font-size: 5em;
     margin: 0;
@@ -37,7 +44,7 @@
 
 #utah {
     font-size: 3em;
-
+    margin-bottom: 4rem;
 }
 
 .circle {
