@@ -38,7 +38,8 @@
 
 #visual-design {
     font-size: 5em;
-    margin: 0;
+    margin: 3rem 0;
+    text-transform: uppercase;
 
 }
 
@@ -46,6 +47,7 @@
     font-size: 3em;
     margin-bottom: 4rem;
 }
+
 
 .circle {
     border-radius: 50%;
