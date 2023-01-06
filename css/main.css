@@ -47,46 +47,46 @@
 }
 
 #cir-1 {
-    height: 130px;
-    width: 130px;
+    height: 120px;
+    width: 120px;
     border: solid 8px white;
     background-color: #E6563b;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #cir-2 {
-    height: 130px;
-    width: 130px;
+    height: 120px;
+    width: 120px;
     border: solid 8px white;
     background-color: #EB9D3A;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #cir-3 {
-    height: 130px;
-    width: 130px;
+    height: 120px;
+    width: 120px;
     border: solid 8px white;
     background-color: #7cb06c;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #cir-4 {
-    height: 130px;
-    width: 130px;
+    height: 120px;
+    width: 120px;
     border: solid 8px white;
     background-color: #00ABA9;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /*four images*/
 
 .large-jpg {
-    height: 15rem;
-    width: 23rem !important;
+    height: 11rem;
+    width: 19rem !important;
     border: solid 8px #e6e6e6;
     padding: 0 !important;
     margin: 0;
@@ -95,8 +95,8 @@
 /* right side img */
 
 .right-side-jpg {
-    height: 80px;
-    width: 80px;
+    height: 88px;
+    width: 88px;
     border: solid 3px #e6e6e6;
     margin: .5em;
 }
@@ -113,15 +113,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 18px !important;
-    width: 18px !important;
+    height: 20px !important;
+    width: 20px !important;
     font-size: 12px;
     padding: 0;
     margin: 4px;
 }
 
 .mini-cir-red {
-    margin-left: 10em ;
+    margin-left: 6em;
     background-color: #E6563b;
     color: black;
 }
@@ -143,4 +143,8 @@
 
 #second-img-row {
     margin-top: 5em;
+}
+
+#lorem-text {
+    font-weight: bolder;
 }
