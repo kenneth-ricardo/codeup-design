@@ -15,6 +15,112 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
+
+    <style>
+        @media only screen and (max-width: 768px) {
+            .right-side {
+                display: none;
+            }
+            #codeup-design-text {
+                display: none;
+            }
+            #visual-design {
+                font-size: 2.5em;
+            }
+            .nav-menu {
+                display: none;
+            }
+        }
+
+    @media (min-width:768px) and (max-width: 991.98px) {
+        #codeup-design-text {
+                display: none;
+            }
+
+        #codeup-design-logo {
+            height: 90px;
+            width: 90px;
+            }
+
+            #visual-design {
+                font-size: 3.3em;
+            }
+            #utah {
+                font-size: 2.1em;
+            }
+            .circle
+
+        .nav-menu {
+                display: none;
+            }
+
+        .med-img-row {
+            flex-wrap: nowrap !important;
+        }
+        .row {
+            flex-wrap: nowrap ;
+        }
+        .right-side {
+                display: none;
+            }
+        .large-jpg {
+            margin: 0;
+        }
+
+        #the-last {
+            display: none;
+        }
+        .second-row{
+            margin: 1em;
+        }
+
+        .med-img {
+            width: 70%;
+            margin: 0;
+            padding: 0;
+        }
+        .upper-img {
+            margin: 0;
+        }
+        #second-img-row {
+            margin: 0;
+            padding: 0;
+        }
+
+        .med-left-img {
+            margin-left: 1.25em;
+        }
+        .featured {
+            margin-bottom: 1em;
+        }
+
+        #cir-1 {
+            width: 105px;
+            height: 105px;
+            margin: 10px;
+        }
+
+        #cir-2 {
+            width: 105px;
+            height: 105px;
+            margin: 10px;
+        }
+        #cir-3 {
+            width: 105px;
+            height: 105px;
+            margin: 10px;
+        }
+        #cir-4 {
+            width: 105px;
+            height: 105px;
+            margin: 10px;
+        }
+
+
+
+    } 
+    
+    </style>
 </head>
 
 <body>
@@ -22,7 +128,7 @@
     <div class="page-wrapper">
         <!--Nav Bar-->
 
-        <nav class="container d-inline-flex">
+        <nav class="container d-inline-flex" >
             <img src="img/logo.png" alt="Logo for CodeUp Design" id="codeup-design-logo" class="col-lg-1">
 
             <div class="d-flex align-items-center text-align-inherit">
@@ -30,11 +136,11 @@
 
                 <div class=" nav-menu m-2 ms-5">services</div>
 
-                <div class=" text-secondary text-uppercase nav-menu m-2">work</div>
+                <div class=" nav-menu m-2">work</div>
+                
+                <div class=" nav-menu m-2">blog</div>
 
-                <div class=" text-secondary text-uppercase nav-menu m-2">blog</div>
-
-                <div class=" text-secondary text-uppercase nav-menu m-2">contact</div>
+                <div class="nav-menu m-2">contact</div>
             </div>
         </nav>
 
@@ -47,7 +153,7 @@
             <div class="row">
 
                 <div id="title-design">
-                    <h1 class="anton col-lg-12 text-uppercase my-5 w-10 text-center" id="visual-design">Visual Design & WebDevelopment</h1>
+                    <h1 class="anton col-lg-12 text-uppercase my-5 w-10 text-center" id="visual-design">Visual Design & Web Development</h1>
 
                     <h2 class="anton col-lg-12 text-center text-uppercase w-100" id="utah">From Park City, Utah</h2>
                 </div>
@@ -58,7 +164,7 @@
             <div class="container d-flex justify-content-center">
 
                 <div class="row text-center mt-5">
-                    <div class="col-lg-4 circle anton" id="cir-1">DESIGN</div>
+                    <div class="col-lg-4 circle anton large-circle" id="cir-1">DESIGN</div>
 
                     <div class="col-lg-4 circle anton" id="cir-2">DEVELOP</div>
 
@@ -79,7 +185,7 @@
             <div class="row">
                 <p class="col-lg-8 mb-5 text-center">SELECTED WORK</p>
 
-                <p class="col-lg-4 text-center">THE LAST</p>
+                <p class="col-lg-4 text-center" id="the-last">THE LAST</p>
             </div>
         </div>
 
@@ -89,19 +195,19 @@
             <div class="row">
 
                 <!--Nest top row-->
-                <div class="col-lg-9 upper-img-mt"> <!--photo section-->
+                <div class="col-lg-9 upper-img"> <!--photo section-->
 
-                    <div class="container row mt-lg-5" >  <!-- first row of img start-->
+                    <div class="container row mt-lg-5 med-img med-left-img" >  <!-- first row of img start-->
 
-                        <div class="col-lg-6">  <!-- apple ipad img -->
+                        <div class="col-lg-6 med-img">  <!-- apple ipad img -->
 
                             <img src="img/apple-ipad.jpg" alt="apple laptop" class="large-jpg">
+                            
+                            <div class="d-flex justify-content-start">
 
-                            <div class="d-inline-flex justify-content-start">
+                                <div class="mt-1 featured">FEATURED PROJECT</div>
 
-                                <div class="mt-1">FEATURED PROJECT</div>
-
-                                <div class="d-inline-flex ">
+                                <div class="d-flex ">
                                     <div class="col-sm-1 mini-cir anton mini-cir-red">D</div>
 
                                     <div class="col-sm-1 mini-cir anton mini-cir-orange">D</div>
@@ -113,13 +219,13 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6">  <!-- mac desktop img -->
+                        <div class="col-lg-6 med-img">  <!-- mac desktop img -->
 
                             <img src="img/macbook.jpg" alt="macbook desktop" class="large-jpg">
 
                             <div class="d-flex justify-content-start">
 
-                                <div class="mt-1">FEATURED PROJECT</div>
+                                <div class="mt-1 featured">FEATURED PROJECT</div>
 
                                 <div class="d-flex">
                                     <div class="col-sm-1 mini-cir anton mini-cir-red">D</div>
@@ -135,17 +241,17 @@
                     </div> <!-- first row of img end-->
 
 
-                    <div class="container row" id="second-img-row"> <!-- second row of img start-->
+                    <div class="container row med-img second-row" id="second-img-row"> <!-- second row of img start-->
 
-                        <div class="col-lg-6">  <!---man img-->
+                        <div class="col-lg-6 med-img med-left-img">  <!---man img-->
 
                             <img src="img/man.jpg" alt="man with glasses" class="large-jpg">
 
-                            <div class="d-inline-flex justify-content-start">
+                            <div class="d-flex justify-content-start">
 
-                                <div class="mt-1">FEATURED PROJECT</div>
+                                <div class="mt-1 featured">FEATURED PROJECT</div>
 
-                                <div class="d-inline-flex ">
+                                <div class="d-flex ">
                                     <div class="col-sm-1 mini-cir anton mini-cir-red">D</div>
 
                                     <div class="col-sm-1 mini-cir anton mini-cir-orange">D</div>
@@ -157,13 +263,13 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6">  <!--mac desktop img-->
+                        <div class="col-lg-6 med-img">  <!--mac desktop img-->
                             
                             <img src="img/security.jpg" alt="security text" class="large-jpg">
 
-                            <div class="d-inline-flex justify-content-start">
+                            <div class="d-flex justify-content-start">
 
-                                <div class="mt-1">FEATURED PROJECT</div>
+                                <div class="mt-1 featured">FEATURED PROJECT</div>
 
                                 <div class="d-inline-flex">
                                     <div class="col-sm-1 mini-cir anton mini-cir-red">D</div>
@@ -180,10 +286,10 @@
                 </div> <!--photo section end-->
 
 
-                <div class="col-3"> <!--right side section -->
+                <div class="col-3 right-side"> <!--right side section -->
 
                     <div class="d-flex mb-4"> <!--first right side img-->
-                        <img src="img/mobile-phone.jpg" alt="image of a cell phone" class="right-side-jpg">
+                       <div><img src="img/mobile-phone.jpg" alt="image of a cell phone" class="right-side-jpg"></div>
 
                         <p class="anton right-img-text mt-1">The admin bar and absolute positioning</p>
                     </div>
@@ -198,10 +304,10 @@
 
                         <p class="anton right-img-text mt-1">How to get google to like you</p>
                     </div>
-                    <div class=""> <!--bottom right text (lorem) img-->
+                    <div id="last-lorem-text"> <!--bottom right text (lorem) img-->
                         <p>LAST TWEET</p>
                         
-                        <p id="lorem-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil reiciendis earum libero voluptatum illo officiis esse repellendus ullam tempora blanditiis quis dolor beatae quo, et voluptatibus hic? Consectetur, culpa ab.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil reiciendis earum libero voluptatum illo officiis esse repellendus ullam tempora blanditiis quis dolor beatae quo, et voluptatibus hic? Consectetur, culpa ab.</p>
 
                     </div>
 
