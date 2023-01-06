@@ -8,18 +8,19 @@
 }
 
 #codeup-design-logo {
-    height: 80px;
-    width: 80px;
+    height: 105px;
+    width: 105px;
     padding: 15px ;
+}
+
+#codeup-design-text {
+    font-size: 2em;
 }
 
 .anton {
     font-family: 'anton', sans-serif;
 }
 
-#codeup-design-text {
-    font-size: 1.5em;
-}
 
 .nav-menu {
     padding-top: 13px;
@@ -123,8 +124,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20px !important;
-    width: 20px !important;
+    height: 18px !important;
+    width: 18px !important;
     font-size: 12px;
     padding: 0;
     margin: 4px;
