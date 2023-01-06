@@ -29,11 +29,13 @@
 
 #visual-design {
     font-size: 5em;
+    margin: 0;
+
 }
 
 #utah {
     font-size: 3em;
-    margin-left: .3em;
+
 }
 
 .circle {
@@ -85,11 +87,16 @@
 /*four images*/
 
 .large-jpg {
-    height: 11rem;
+    height: 12rem;
     width: 19rem !important;
     border: solid 8px #e6e6e6;
     padding: 0 !important;
     margin: 0;
+}
+
+/*margin above first row images*/
+.upper-img-mt {
+    margin-top: 1em !important;
 }
 
 /* right side img */
