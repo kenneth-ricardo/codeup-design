@@ -21,6 +21,7 @@
             .right-side {
                 display: none;
             }
+
             #codeup-design-text {
                 display: none;
             }
@@ -32,11 +33,12 @@
             }
 
             #visual-design {
-                font-size: 4.58em;
+                font-size: 4rem;
                 text-transform: uppercase;
                 margin-top: 2rem;
                 margin-bottom: 3rem;
             }
+
             .nav-menu {
                 display: none;
             }
@@ -73,6 +75,7 @@
                 display: none;
 
             }
+
             #the-last {
                 display: none;
             }
@@ -81,122 +84,142 @@
                 margin-top: 3rem;
             }
 
+            .small-image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+            }
 
-            
-        }
-
-
-
-    @media (min-width: 992px) {
-        #hamburger-button {
-            display: none;
-            position: static !important;
-        }
-        
-        
-        #codeup-design-logo {
-            padding: 0;
-            margin-right: 1em;
-        }
-        #nav-bar {
-            display: inline-flex;
-            justify-content: start !important;
-            width: 100%;
+            #second-img-row {
+                margin-top: 0;
+            }
 
         }
 
-    }
 
 
-    @media (min-width:768px) and (max-width: 991.98px) {
-       
-        #codeup-design-text {
+        @media (min-width: 992px) {
+            #hamburger-button {
+                display: none;
+                position: static !important;
+            }
+
+
+            #codeup-design-logo {
+                padding: 0;
+                margin-right: 1em;
+            }
+
+            #nav-bar {
+                display: inline-flex;
+                justify-content: start !important;
+                width: 100%;
+
+            }
+
+        }
+
+
+        @media (min-width:768px) and (max-width: 991.98px) {
+
+            #codeup-design-text {
                 display: none;
             }
 
-        #codeup-design-logo {
-            height: 105px;
-            width: 105px;
-            padding: 15px;
+            #codeup-design-logo {
+                height: 105px;
+                width: 105px;
+                padding: 15px;
             }
 
             #visual-design {
                 font-size: 5.3em;
             }
+
             #utah {
                 font-size: 3.45em;
             }
-        .nav-menu {
+
+            .nav-menu {
                 display: none;
             }
 
-        .med-img-row {
-            flex-wrap: nowrap !important;
-        }
-        .row {
-            flex-wrap: nowrap ;
-        }
-        .right-side {
+            .med-img-row {
+                flex-wrap: nowrap !important;
+            }
+
+            .row {
+                flex-wrap: nowrap;
+            }
+
+            .right-side {
                 display: none;
             }
-        .large-jpg {
-            margin: 0;
-        }
 
-        #the-last {
-            display: none;
-        }
-        .second-row{
-            margin: 1em;
-        }
+            .large-jpg {
+                margin: 0;
+            }
 
-        .med-img {
-            width: 70%;
-            margin: 0;
-            padding: 0;
-        }
-        .upper-img {
-            margin: 0;
-        }
-        #second-img-row {
-            margin: 0;
-            padding: 0;
-        }
+            #the-last {
+                display: none;
+            }
 
-        .med-left-img {
-            margin-left: 1.25em;
-        }
-        .featured {
-            margin-bottom: 1em;
-        }
+            .second-row {
+                margin: 1em;
+            }
 
-        #cir-1 {
-            width: 105px;
-            height: 105px;
-            margin: 10px;
-            font-size: 18px;
-        }
+            .med-img {
+                width: 70%;
+                margin: 0;
+                padding: 0;
+            }
 
-        #cir-2 {
-            width: 105px;
-            height: 105px;
-            margin: 10px;
-        }
-        #cir-3 {
-            width: 105px;
-            height: 105px;
-            margin: 10px;
-        }
-        #cir-4 {
-            width: 105px;
-            height: 105px;
-            margin: 10px;
-        }
+            .upper-img {
+                margin: 0;
+            }
+
+            #second-img-row {
+                margin: 0;
+                padding: 0;
+            }
+
+            .med-left-img {
+                margin-left: 1.25em;
+            }
+
+            .featured {
+                margin-bottom: 1em;
+            }
+
+            #cir-1 {
+                width: 105px;
+                height: 105px;
+                margin: 10px;
+                font-size: 18px;
+            }
+
+            #cir-2 {
+                width: 105px;
+                height: 105px;
+                margin: 10px;
+            }
+
+            #cir-3 {
+                width: 105px;
+                height: 105px;
+                margin: 10px;
+            }
+
+            #cir-4 {
+                width: 105px;
+                height: 105px;
+                margin: 10px;
+            }
 
 
 
-    } 
-    
+        }
     </style>
 </head>
 
@@ -206,7 +229,7 @@
         <!--Nav Bar-->
 
 
-        <nav class="d-flex justify-content-between" id="nav-bar" > <!--desktop menu-->
+        <nav class="d-flex justify-content-between" id="nav-bar"> <!--desktop menu-->
             <img src="img/logo.png" alt="Logo for CodeUp Design" id="codeup-design-logo" class="col-lg-1">
 
             <div class="d-flex align-items-center text-align-inherit">
@@ -215,7 +238,7 @@
                 <div class=" nav-menu m-2 ms-5">services</div>
 
                 <div class=" nav-menu m-2">work</div>
-                
+
                 <div class=" nav-menu m-2">blog</div>
 
                 <div class="nav-menu m-2">contact</div>
@@ -223,44 +246,35 @@
 
             <div class="navbar" id="hamburger-button"> <!--hamburger button-->
                 <div class="container-fluid d-flex justify-content-end">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                          <a class="nav-link nav-menu-collapse" href="#">services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-menu-collapse" href="#">work</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link nav-menu-collapse" href="#">blog</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link nav-menu-collapse" href="#">contact</a>
-                          </li>
-                        </ul>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link nav-menu-collapse" href="#">services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-menu-collapse" href="#">work</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-menu-collapse" href="#">blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-menu-collapse" href="#">contact</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
-            <!-- <div class="d-flex align-items-center text-align-inherit">
-                <div class="fw-bolder me-4" id="codeup-design-text">codeup design</div>
-
-                <div class=" nav-menu m-2 ms-5">services</div>
-
-                <div class=" nav-menu m-2">work</div>
-                
-                <div class=" nav-menu m-2">blog</div>
-
-                <div class="nav-menu m-2">contact</div>
-            </div> -->
         </nav>
 
 
@@ -270,37 +284,34 @@
 
             <!--Title Area-->
             <div>
+                <h1 class="anton col-lg-12 text-center" id="visual-design">Visual Design & Web Development</h1>
 
-                    <h1 class="anton col-lg-12 text-center" id="visual-design">Visual Design & Web Development</h1>
-
-                    <h2 class="anton col-lg-12 text-center text-uppercase w-100" id="utah">From Park City, Utah</h2>
-
-
+                <h2 class="anton col-lg-12 text-center text-uppercase w-100" id="utah">From Park City, Utah</h2>
             </div>
             <!--End of Title Area-->
-
+            <!-- Large Circles-->
             <div class="d-flex justify-content-center align-items-center flex-wrap">
-
                 <div class="row text-center p-4">
                     <div class="col-lg-4 circle anton large-circle" id="cir-1">DESIGN</div>
 
                     <div class="col-lg-4 circle anton" id="cir-2">DEVELOP</div>
                 </div>
+
                 <div class="row text-center ">
                     <div class="col-lg-4 circle anton" id="cir-3">SUPPORT</div>
 
                     <div class="col-lg-4 circle anton" id="cir-4">HOST</div>
                 </div>
-
             </div>
         </div>
 
         <!--Page Divide-->
-        <div class="container mt-5 mb-4" id="bar"> <hr> </div>
+        <div class="container mt-5 mb-4" id="bar">
+            <hr>
+        </div>
 
         <!--Selected Work / The Last-->
         <div class="container pt-3">
-
             <div class="row">
                 <p class="col-lg-8 mb-5 text-center" id="selected">SELECTED WORK</p>
 
@@ -309,19 +320,18 @@
         </div>
 
         <!--Lower Page Content-->
-        <div class="container " id="lower-photos" > <!--lower page container start-->
+        <div class="container " id="lower-photos"> <!--lower page container start-->
 
             <div class="row">
 
-                <!--Nest top row-->
-                <div class="col-lg-9" > <!--photo section-->
+                <!--photo section-->
+                <div class="col-lg-9">
+                    <div class="row mt-lg-5 med-img med-left-img"> <!-- first row of img start-->
 
-                    <div class="row mt-lg-5 med-img med-left-img" >  <!-- first row of img start-->
-
-                        <div class="col-lg-6 med-img">  <!-- apple ipad img -->
+                        <div class="col-lg-6 med-img small-image"> <!-- apple ipad img -->
 
                             <img src="img/apple-ipad.jpg" alt="apple laptop" class="large-jpg">
-                            
+
                             <div class="d-flex justify-content-start">
 
                                 <div class="mt-1 featured">FEATURED PROJECT</div>
@@ -338,7 +348,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6 med-img">  <!-- mac desktop img -->
+                        <div class="col-lg-6 med-img small-image"> <!-- mac desktop img -->
 
                             <img src="img/macbook.jpg" alt="macbook desktop" class="large-jpg">
 
@@ -362,7 +372,7 @@
 
                     <div class="row med-img second-row" id="second-img-row"> <!--second row of img start-->
 
-                        <div class="col-lg-6 med-img med-left-img">  <!---man img-->
+                        <div class="col-lg-6 med-img med-left-img small-image"> <!---man img-->
 
                             <img src="img/man.jpg" alt="man with glasses" class="large-jpg">
 
@@ -382,8 +392,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6 med-img">  <!--mac desktop img-->
-                            
+                        <div class="col-lg-6 med-img small-image"> <!--security img-->
+
                             <img src="img/security.jpg" alt="security text" class="large-jpg">
 
                             <div class="d-flex justify-content-start">
@@ -408,7 +418,7 @@
                 <div class="col-lg-3 col- right-side"> <!--right side section -->
 
                     <div class="d-flex mb-4"> <!--first right side img-->
-                       <div><img src="img/mobile-phone.jpg" alt="image of a cell phone" class="right-side-jpg"></div>
+                        <div><img src="img/mobile-phone.jpg" alt="image of a cell phone" class="right-side-jpg"></div>
 
                         <p class="anton right-img-text mt-1">The admin bar and absolute positioning</p>
                     </div>
@@ -425,21 +435,26 @@
                     </div>
                     <div> <!--bottom right text (lorem) img-->
                         <p>LAST TWEET</p>
-                        
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil reiciendis earum libero voluptatum illo officiis esse repellendus ullam tempora blanditiis quis dolor beatae quo, et voluptatibus hic? Consectetur, culpa ab.</p>
 
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil reiciendis earum libero
+                            voluptatum illo officiis esse repellendus ullam tempora blanditiis quis dolor beatae quo, et
+                            voluptatibus hic? Consectetur, culpa ab.
+                        </p>
                     </div>
-
                 </div>
             </div>
         </div> <!--lower page container end-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"crossorigin="anonymous"></script>
-
-
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    </div>
 </body>
-<!--Corrected the indentation and edited the spacing to make the code easier to read-->
-<!--The images seem too big the lorem text is to high in relation-->
-<!--Need to create media queries in order to get the right side appear at the large px size and up-->
-<!--hr line needs to appear at the lg and up sizes-->
+<!--
+-I think the logo needs to move up a bit once the text desappears.
+-the class i added is small-image i added it to line329, 349, 373, 393 and it's in the media query @ line 87. 
+-I also changed the margin-top to 0 in order to get rid of the gap
+-Margin still needs to be added to divs that hold the the image and featured to get them to space out a little
+-The images are spaced out in the desktop size they need to come closer
+-the css page can get organized if you can't get to it i'll knock it out tomorrow
+-->
 </html>
