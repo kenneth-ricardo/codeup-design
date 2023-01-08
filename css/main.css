@@ -22,7 +22,6 @@
     font-family: 'anton', sans-serif;
 }
 
-
 .nav-menu {
     padding-top: 13px;
     font-size: 1em;
@@ -39,7 +38,7 @@
 
 #hamburger-button {
     padding: 0;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 #visual-design {
