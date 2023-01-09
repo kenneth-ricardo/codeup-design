@@ -64,8 +64,7 @@
     font-size: 8px;
 }
 
-/*large circles*/
-
+/*large centered circles*/
 #cir-1 {
     height: 120px;
     width: 120px;
@@ -103,7 +102,6 @@
 }
 
 /*four images*/
-
 .large-jpg {
     height: 13rem;
     width: 20rem !important;
@@ -118,21 +116,19 @@
 }
 
 /* right side img */
-
 .right-side-jpg {
-    height: 88px;
-    width: 88px;
+    height: 75px;
+    width: 75px;
     border: solid 3px #e6e6e6;
     margin: .5em;
 }
 
 .right-img-text {
-    font-size: 25px;
+    font-size: 1.2em;
     text-transform: uppercase;
 }
 
-/*mini circles*/
-
+/*mini circles start*/
 .mini-cir {
     border-radius: 50%;
     display: flex;

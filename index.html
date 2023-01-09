@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
 
     <style>
+        /* sm/xs view */
         @media only screen and (max-width: 767px) {
             .right-side {
                 display: none;
@@ -34,7 +35,7 @@
             }
 
             #visual-design {
-                font-size: 4rem;
+                font-size: 3.4rem;
                 text-transform: uppercase;
                 margin-top: 2rem;
                 margin-bottom: 3rem;
@@ -71,11 +72,9 @@
             #second-img-row {
                 margin-top: 0;
             }
-
         }
 
-
-
+        /*Medium view*/
         @media (min-width: 992px) {
             #hamburger-button {
                 display: none;
@@ -97,9 +96,8 @@
 
         /*XL Desktop view*/
         @media (min-width:1200px) and (max-width: 1400px){
-
             .right-img-text {
-                font-size: 25px;
+                font-size: 16px;
                 text-transform: uppercase;
             }
 
@@ -120,10 +118,22 @@
                 font-size: 15px;
             }
 
+            .mini-cir-red {
+                margin-left: 9em;
+            }
+
+            .featured {
+                font-size: 1.3rem;
+                margin-left: 10px
+            }
+
+            #second-img-row {
+                margin-top: 1em;
+            }
         }
 
+        /* between lg and medium */
         @media (min-width:768px) and (max-width: 991.98px) {
-
             #codeup-design-text {
                 display: none;
             }
@@ -147,9 +157,9 @@
                 display: none;
             }
 
-            .med-img-row {
-                flex-wrap: nowrap !important;
-            }
+            /*.med-img-row {*/
+            /*    flex-wrap: nowrap !important;*/
+            /*}*/
 
             .row {
                 flex-wrap: nowrap;
@@ -177,9 +187,9 @@
                 padding: 0;
             }
 
-            .upper-img {
-                margin: 0;
-            }
+            /*.upper-img {*/
+            /*    margin: 0;*/
+            /*}*/
 
             #second-img-row {
                 margin: 0;
@@ -218,7 +228,6 @@
                 height: 105px;
                 margin: 10px;
             }
-
         }
     </style>
 </head>
@@ -227,7 +236,6 @@
     <!--Page Content-->
     <div class="page-wrapper">
         <!--Nav Bar-->
-
 
         <nav class="d-flex justify-content-between" id="nav-bar"> <!--desktop menu-->
             <img src="img/logo.png" alt="Logo for CodeUp Design" id="codeup-design-logo" class="col-lg-1">
@@ -423,11 +431,13 @@
                     </div>
 
                     <div class="d-flex mb-4"> <!--second right side img-->
+
                         <img src="img/head.jpg" alt="image of a cell phone" class="right-side-jpg">
 
                         <p class="anton right-img-text mt-1">nibbler awesome website testing</p>
                     </div>
                     <div class="d-flex mb-4"> <!--third right side img-->
+
                         <img src="img/ipad.jpg" alt="image of a cell phone" class="right-side-jpg">
 
                         <p class="anton right-img-text mt-1">How to get google to like you</p>
@@ -449,6 +459,8 @@
     </div>
 </body>
 <!--
-- I inlarge the 4 big images when the size is 1200+ and also shrank the text on the smaller images.
+-I enlarged the 4 big images when the size is 1200+ and also shrank the text on the smaller images.
+-I also committed out lines 160 and lines 190, if you can check to see if they matter.  If not we can delete.
+-I added another @media for the XL behaviors if you can look over them (min-width:1200px) and (max-width: 1400px).
 -->
 </html>
