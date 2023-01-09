@@ -64,7 +64,7 @@
     font-size: 8px;
 }
 
-
+/*large circles*/
 
 #cir-1 {
     height: 120px;
@@ -105,8 +105,8 @@
 /*four images*/
 
 .large-jpg {
-    height: 12rem;
-    width: 19rem !important;
+    height: 13rem;
+    width: 20rem !important;
     border: solid 8px #e6e6e6;
     padding: 0 !important;
     margin: 0;
@@ -164,6 +164,11 @@
 .mini-cir-blue {
     background-color: #00ABA9;
     color: black;
+}
+
+.featured {
+    font-size: 1.1rem;
+    margin-left: 10px
 }
 
 #second-img-row {
